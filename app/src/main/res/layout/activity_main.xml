@@ -1,0 +1,112 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/Hamburger_BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/burger" />
+
+            <TextView
+                android:id="@+id/Hamburger_Txt"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_gravity="bottom"
+                android:alpha="0.6"
+                android:background="@color/black"
+                android:gravity="bottom"
+                android:text="Hamburger"
+                android:textColor="@color/white"
+                android:textSize="39sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/Steak_BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/steaks" />
+            <TextView
+                android:id="@+id/Steak_Txt"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="bottom"
+                android:textSize="39sp"
+                android:textColor="@color/white"
+                android:alpha="0.6"
+                android:background="@color/black"
+                android:layout_gravity="bottom"
+                android:text="Steak" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/Drinks_BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/drinks" />
+            <TextView
+                android:id="@+id/Drinks_Txt"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="bottom"
+                android:textSize="39sp"
+                android:textColor="@color/white"
+                android:alpha="0.6"
+                android:background="@color/black"
+                android:layout_gravity="bottom"
+                android:text="Drinks" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/Salad_BTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/salads" />
+            <TextView
+                android:id="@+id/Salad_Txt"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="bottom"
+                android:textSize="39sp"
+                android:textColor="@color/white"
+                android:alpha="0.6"
+                android:background="@color/black"
+                android:layout_gravity="bottom"
+                android:text="Salad" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
